@@ -1,0 +1,79 @@
+# ==============================================================================
+# Project-Specific: Confidential & Leads-Only Files
+# ==============================================================================
+# Do not share answer key or solution guides with participants
+ANSWER_KEY_LEADS_ONLY.md
+*ANSWER_KEY*
+*LEADS_ONLY*
+
+# Note: The core scripts (app.py, chat_app.py, generate_dataset.py, train_model.py),
+# requirements.txt, README.md, as well as the trained model (visa_model.joblib)
+# and dataset (visa_dataset.csv) remain tracked so the application runs immediately.
+
+# ==============================================================================
+# Python Bytecode & Runtime Caches
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==============================================================================
+# Virtual Environments
+# ==============================================================================
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# ==============================================================================
+# Streamlit & Secrets
+# ==============================================================================
+.streamlit/secrets.toml
+
+# ==============================================================================
+# Environment Variables
+# ==============================================================================
+.env
+.env.*
+!.env.example
+
+# ==============================================================================
+# IDEs & Text Editors
+# ==============================================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-workspace
+*.sublime-project
+
+# ==============================================================================
+# Operating System & Diagnostics
+# ==============================================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+*.tmp
