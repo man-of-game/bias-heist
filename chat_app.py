@@ -124,11 +124,19 @@ QUESTIONS = [
     },
     {
         "key": "legal",
-        "text": "Finally - do you have any pending legal charges against you, anywhere?",
+        "text": "Do you have any pending legal charges against you, anywhere?",
         "widget": "select",
         "options": ["no", "yes"],
         "real": True,
         "field": "legal_charges",
+    },
+    {
+        "key": "marital",
+        "text": "What is  your marital status?",
+        "widget": "select",
+        "options": ["single", "married", "divorced", "widowed"],
+        "real": False, 
+        "field": "marital_status", 
     },
 ]
 
