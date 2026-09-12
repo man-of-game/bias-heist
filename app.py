@@ -60,7 +60,7 @@ if submitted:
     row = np.hstack([[[age, annual_income, bank_balance, prior_approvals]], row_cat])
 
     proba = model.predict_proba(row)[0, 1]
-    decision = "APPROVED ✅" if proba >= 0.5 else "REJECTED ❌"
+    decision = "APPROVED ✅" if proba >= 0.65 else "REJECTED ❌"
 
     st.divider()
     st.subheader(f"Decision: {decision}")
